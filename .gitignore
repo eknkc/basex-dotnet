@@ -1,0 +1,9 @@
+# build
+[Bb]in/
+[Oo]bj/
+*.nupkg
+
+# user
+*.user
+*.userprefs
+.DS_Store
