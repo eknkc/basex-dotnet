@@ -56,7 +56,7 @@ namespace BaseX {
         return "";
       }
 
-      var digits = new List<int> ();
+      var digits = new List<int> () { 0 };
 
       for (var i = 0; i < input.Length; i++) {
         var carry = (int) input[i];
@@ -97,7 +97,7 @@ namespace BaseX {
         return new byte[] { };
       }
 
-      var bytes = new List<byte> ();
+      var bytes = new List<byte> () { 0 };
 
       for (var i = 0; i < source.Length; i++) {
         var c = source[i];

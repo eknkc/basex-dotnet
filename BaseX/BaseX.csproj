@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+
+    <PackageId>BaseX</PackageId>
+    <Version>1.0.2</Version>
+    <Authors>Ekin Koc</Authors>
+    <Company>Eknkc</Company>
+    <Description>BaseX provides fast base encoding / decoding of any given alphabet using bitcoin style leading zero compression.</Description>
+
   </PropertyGroup>
 
 </Project>
