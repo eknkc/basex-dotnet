@@ -118,7 +118,7 @@ namespace BaseX.Tests
       };
 
     [Fact]
-    public void TestContructor()
+    public void TestConstructor()
     {
       Assert.Throws<ArgumentException>(() =>
       {
